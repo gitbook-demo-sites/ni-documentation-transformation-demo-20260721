@@ -1,0 +1,12 @@
+- tag: authoring
+  label: Authoring
+  icon: pen-to-square
+- tag: ai
+  label: AI
+  icon: sparkles
+- tag: review
+  label: Review
+  icon: user-check
+- tag: localization
+  label: Localization
+  icon: language
