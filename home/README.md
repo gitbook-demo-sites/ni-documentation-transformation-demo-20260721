@@ -45,9 +45,9 @@ This first draft borrows the product-catalog feel of the SICK demo, then adapts 
 ## Choose a transformation path
 
 <table data-view="cards"><thead><tr><th></th><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody>
-<tr><td><h3><i class="fa-pen-to-square" style="color:$primary;">:pen:</i></h3></td><td><strong>Author and contribute</strong></td><td>How writers, SMEs, agencies, and customers can collaborate through Markdown, pull requests, review workflows, and AI drafting.</td><td><a href="https://app.gitbook.com/s/XSPACE_AUTHORING/">Authoring</a></td></tr>
-<tr><td><h3><i class="fa-language" style="color:$primary;">:language:</i></h3></td><td><strong>Deliver and localize</strong></td><td>How GitBook supports online HTML delivery, metadata, gated/public publishing, PDF continuity, and translation handoffs.</td><td><a href="https://app.gitbook.com/s/XSPACE_DELIVERY/">Delivery</a></td></tr>
-<tr><td><h3><i class="fa-sparkles" style="color:$primary;">:sparkles:</i></h3></td><td><strong>Automate with AI</strong></td><td>Where AI search, drafting, content checks, MCP access, and metrics reduce authoring friction and increase velocity.</td><td><a href="https://app.gitbook.com/s/XSPACE_AI/">AI</a></td></tr>
+<tr><td><h3><i class="fa-pen-to-square" style="color:$primary;">:pen:</i></h3></td><td><strong>Author and contribute</strong></td><td>How writers, SMEs, agencies, and customers can collaborate through Markdown, pull requests, review workflows, and AI drafting.</td><td><a href="https://app.gitbook.com/s/0I61gFzsROTZLVPnAFCt/">Authoring</a></td></tr>
+<tr><td><h3><i class="fa-language" style="color:$primary;">:language:</i></h3></td><td><strong>Deliver and localize</strong></td><td>How GitBook supports online HTML delivery, metadata, gated/public publishing, PDF continuity, and translation handoffs.</td><td><a href="https://app.gitbook.com/s/dUKl96x8ceutRDUbj3kX/">Delivery</a></td></tr>
+<tr><td><h3><i class="fa-sparkles" style="color:$primary;">:sparkles:</i></h3></td><td><strong>Automate with AI</strong></td><td>Where AI search, drafting, content checks, MCP access, and metrics reduce authoring friction and increase velocity.</td><td><a href="https://app.gitbook.com/s/tzdamnZS7hgIzKKJWXAs/">AI</a></td></tr>
 </tbody></table>
 
 ## Why this matters for NI
