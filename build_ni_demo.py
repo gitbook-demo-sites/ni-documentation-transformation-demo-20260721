@@ -1035,6 +1035,7 @@ def customize(created: dict) -> None:
     logo = f"{RAW}/assets/ni-wordmark.svg"
     current["favicon"] = {"icon": {"light": logo, "dark": logo}}
     current["header"] = {
+        "preset": "default",
         "logo": {"light": logo, "dark": logo},
         "primaryLink": {"kind": "space", "space": created["spaces"]["HOME"]},
         "links": [
