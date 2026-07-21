@@ -1033,7 +1033,7 @@ def customize(created: dict) -> None:
         "search": "prominent",
     }
     logo = f"{RAW}/assets/ni-wordmark.svg"
-    current["favicon"] = {"emoji": "NI"}
+    current["favicon"] = {"icon": {"light": logo, "dark": logo}}
     current["header"] = {
         "logo": {"light": logo, "dark": logo},
         "primaryLink": {"kind": "space", "space": created["spaces"]["HOME"]},
