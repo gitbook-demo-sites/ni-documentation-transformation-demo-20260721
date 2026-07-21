@@ -941,7 +941,7 @@ def create_gitbook_objects() -> dict:
         _, space = api(
             "POST",
             f"/orgs/{ORG_ID}/spaces",
-            {"title": item["title"], "emoji": item["emoji"], "visibility": "in-collection"},
+            {"title": item["title"], "visibility": "in-collection"},
         )
         created["spaces"][item["key"]] = space["id"]
         _, section = api(
