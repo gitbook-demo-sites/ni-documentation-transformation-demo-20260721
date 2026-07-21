@@ -937,7 +937,19 @@ def push_public_mirror() -> None:
 def create_gitbook_objects() -> dict:
     api("PATCH", f"/orgs/{ORG_ID}/sites/{SITE_ID}", {"type": "ultimate", "title": "NI Documentation Transformation Demo", "visibility": "share-link", "basename": "ni-documentation-transformation-demo"})
     created = {"site": SITE_ID, "spaces": {}, "sections": {}, "site_spaces": {}}
+    _, current = api("GET", f"/orgs/{ORG_ID}/sites/{SITE_ID}/structure")
+    existing_by_title = {
+        section.get("title"): section
+        for section in current.get("structure", [])
+        if section.get("object") == "site-section" and section.get("siteSpaces")
+    }
     for item in SPACES:
+        existing = existing_by_title.get(item["title"])
+        if existing:
+            created["sections"][item["key"]] = existing["id"]
+            created["site_spaces"][item["key"]] = existing["siteSpaces"][0]["id"]
+            created["spaces"][item["key"]] = existing["siteSpaces"][0]["space"]["id"]
+            continue
         _, space = api(
             "POST",
             f"/orgs/{ORG_ID}/spaces",
